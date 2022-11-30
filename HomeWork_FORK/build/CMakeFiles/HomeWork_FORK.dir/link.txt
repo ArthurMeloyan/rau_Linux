@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/HomeWork_FORK.dir/main.c.o -o HomeWork_FORK 
