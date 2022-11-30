@@ -16,7 +16,7 @@ int main(int argc, char** argv)
    int count = 0;
    if (argc == 1)
    {
-    printf("You did not provide me any arguments, asshole!\n");
+    printf("You did not provide me any arguments, damn!\n");
     return 1;
    } 
    pid_t pid = fork();
