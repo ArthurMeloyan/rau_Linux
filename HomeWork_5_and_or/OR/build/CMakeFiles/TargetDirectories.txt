@@ -1,0 +1,3 @@
+/home/mel/Рабочий стол/HW/rau_Linux/HomeWork_5_and_or/OR/build/CMakeFiles/or.dir
+/home/mel/Рабочий стол/HW/rau_Linux/HomeWork_5_and_or/OR/build/CMakeFiles/edit_cache.dir
+/home/mel/Рабочий стол/HW/rau_Linux/HomeWork_5_and_or/OR/build/CMakeFiles/rebuild_cache.dir
