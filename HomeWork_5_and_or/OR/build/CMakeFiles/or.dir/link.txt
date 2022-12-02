@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/or.dir/or.c.o -o or 

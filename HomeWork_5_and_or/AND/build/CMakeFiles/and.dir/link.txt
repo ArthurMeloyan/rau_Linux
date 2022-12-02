@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/and.dir/and.c.o -o and 
