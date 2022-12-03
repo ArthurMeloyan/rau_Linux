@@ -1,0 +1,3 @@
+/home/mel/Рабочий стол/HW/rau_Linux/HomeWork_6_wc/build/CMakeFiles/wc.dir
+/home/mel/Рабочий стол/HW/rau_Linux/HomeWork_6_wc/build/CMakeFiles/edit_cache.dir
+/home/mel/Рабочий стол/HW/rau_Linux/HomeWork_6_wc/build/CMakeFiles/rebuild_cache.dir
