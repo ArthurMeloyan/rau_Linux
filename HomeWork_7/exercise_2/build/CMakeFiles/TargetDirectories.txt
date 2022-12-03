@@ -1,0 +1,3 @@
+/home/mel/Рабочий стол/HW/rau_Linux/HomeWork_7/exercise_2/build/CMakeFiles/my_cat.dir
+/home/mel/Рабочий стол/HW/rau_Linux/HomeWork_7/exercise_2/build/CMakeFiles/edit_cache.dir
+/home/mel/Рабочий стол/HW/rau_Linux/HomeWork_7/exercise_2/build/CMakeFiles/rebuild_cache.dir
