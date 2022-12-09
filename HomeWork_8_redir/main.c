@@ -99,7 +99,12 @@ int main(int argc, char** argv)
 			args_[i - 1] = argv[i];
 		}
 		args_[_out - 1] = NULL;
-		execvp(argv[1], args_);
+		if(execvp(argv[1], args_) == -1)
+		{
+			perror("Program executable failed");
+			exit(1);
+		}
+		exit(0);
 
 	}
 	int status;
