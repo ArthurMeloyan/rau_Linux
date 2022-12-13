@@ -1,0 +1,12 @@
+mkdir rau
+cd rau
+mkdir rau_0
+mkdir rau_1
+cd rau_1
+touch simple
+ls
+cd ../
+cd rau_0
+mv simple rau_0
+cd ../../
+rm -rf rau
