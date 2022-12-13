@@ -1,3 +1,0 @@
-/mnt/c/Users/meloy/OneDrive/Рабочий стол/rau_Linux/HomeWork_8_redir/build/CMakeFiles/redir.dir
-/mnt/c/Users/meloy/OneDrive/Рабочий стол/rau_Linux/HomeWork_8_redir/build/CMakeFiles/edit_cache.dir
-/mnt/c/Users/meloy/OneDrive/Рабочий стол/rau_Linux/HomeWork_8_redir/build/CMakeFiles/rebuild_cache.dir
