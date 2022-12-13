@@ -1,3 +1,0 @@
-/home/mel/Рабочий стол/HW/rau_Linux/HomeWork_FORK/build/CMakeFiles/HomeWork_FORK.dir
-/home/mel/Рабочий стол/HW/rau_Linux/HomeWork_FORK/build/CMakeFiles/edit_cache.dir
-/home/mel/Рабочий стол/HW/rau_Linux/HomeWork_FORK/build/CMakeFiles/rebuild_cache.dir
