@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/decrep.dir/decrep.c.o -o decrep 
