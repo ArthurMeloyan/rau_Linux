@@ -1,3 +1,0 @@
-/mnt/c/users/user/desktop/study/linux/rau_linux/HomeWork_CMake/build/CMakeFiles/rebuild_cache.dir
-/mnt/c/users/user/desktop/study/linux/rau_linux/HomeWork_CMake/build/CMakeFiles/edit_cache.dir
-/mnt/c/users/user/desktop/study/linux/rau_linux/HomeWork_CMake/build/CMakeFiles/HomeWork_CMake.dir
