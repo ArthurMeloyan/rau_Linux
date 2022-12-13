@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/HomeWork_CMake.dir/main.cc.o CMakeFiles/HomeWork_CMake.dir/src/Polynomial.cc.o  -o HomeWork_CMake 

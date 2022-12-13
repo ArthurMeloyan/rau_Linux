@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/polynomial.h
+cstddef
+-
+vector
+-
+
+/mnt/c/users/user/desktop/study/linux/rau_linux/HomeWork_CMake/main.cc
+iostream
+-
+vector
+-
+cstdlib
+-
+polynomial.h
+/mnt/c/users/user/desktop/study/linux/rau_linux/HomeWork_CMake/polynomial.h
+
+/mnt/c/users/user/desktop/study/linux/rau_linux/HomeWork_CMake/src/Polynomial.cc
+iostream
+-
+cmath
+-
+polynomial.h
+/mnt/c/users/user/desktop/study/linux/rau_linux/HomeWork_CMake/src/polynomial.h
+
