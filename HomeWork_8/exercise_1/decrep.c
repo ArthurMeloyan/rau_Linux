@@ -31,7 +31,8 @@ int main(int argc, char** argv)
         exit(1);
     }
 
-    while (read(file1, buff, sizeof(buff)) > 0)
+    int read_ = 0;
+    while ((read_ = read(file1, buff, sizeof(buff))) > 0)
     {
         for (int i = 0; i < sizeof(buff); ++i)
         {
