@@ -3,6 +3,7 @@
 #include <sys/wait.h>
 #include <unistd.h>
 #include <string.h>
+#include <fcntl.h>
 
 int main(int argc, char* argv[])
 {
@@ -11,42 +12,56 @@ int main(int argc, char* argv[])
         printf("Invalid amount of arguments\n");
         return 1;
     }
+    int fd[2];
+    
 
-    pid_t pid = fork();
-    int out[2];
-    int input[2];
-    if (pipe(out) == -1 || pipe(input) == -1)
+    if (pipe(fd) == -1)
     {
         perror("Pipe");
         return 1;
     }
 
-    if (pid < 0)
+    pid_t child1 = fork();
+    pid_t child2 = fork();
+    if (child1 < 0 || child2 < 0)
     {
         perror("Unable to fork");
         return 1;
     }
 
-    if (pid == 0)
+    close(fd[0]);
+    close(fd[1]);
+
+
+    if (child1 == 0)
     {
-        close(input[1]);
-        dup2(input[0], 0);
-        if(execlp(argv[1], argv[1], NULL) == -1)
+        close(fd[0]);
+        dup2(fd[1], STDOUT_FILENO);
+        close(fd[1]);
+        if (execlp(argv[1], argv[1], NULL) == -1 )
         {
-            printf("Execution of the programm failed\n");
+            printf("Execution of the program failed");
             return 1;
         }
-        close(input[0]);
-        close(out[0]);
-        dup2(out[1], 1);
-       if (execlp(argv[2], argv[2], NULL) == -1)
-       {
-            printf("Execution of the programm failed\n");
-            return 1;
-       }
-        close(out[1]);
+        
     }
 
+    if (child2 == 0)
+    {
+        close(fd[1]);
+        dup2(fd[0], STDIN_FILENO);
+        close(fd[0]);
+        if (execlp(argv[2], argv[2], NULL) == -1)
+        {
+            printf("Execution of the programm failed");
+            return 1;
+        }
+       
+    }
+    
     wait(NULL);
+    wait(NULL);
+    
     return 0;
+
 }
